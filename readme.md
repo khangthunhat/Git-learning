@@ -53,6 +53,8 @@ Bài viết này tổng hợp các lệnh Git được phân loại theo chức 
     * Ví dụ: `git branch -d feature/login`
 * **`git branch -D <tên_branch>`:**  Xóa branch (ngay cả khi chưa được merge).
     * Ví dụ: `git branch -D feature/login`
+* **`git branch -b <tên_branch> <sha-cua branch đã xoá>`:** Khôi phục lại branch đã xoá
+    * Ví dụ: `git branch -b feature/login ba71628`
 
 ### 5. Làm việc với Remote Repository
 
